@@ -1,0 +1,3 @@
+http://es.wikihow.com/instalar-paquetes-de-Python-en-Windows-7
+https://github.com/tweepy/tweepy
+https://pypi.python.org/pypi/tweepy/3.5.0
