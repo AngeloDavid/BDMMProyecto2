@@ -43,12 +43,12 @@ twitterStream = Stream(auth, listener())
 server = couchdb.Server('http://localhost:5984/')
 try:
     #Si no existe la Base de datos la crea
-    db = server.create('subameircacon')
+    db = server.create('sudamericano2017')
 except:
     #Caso contrario solo conectarse a la base existente
-    db = server['subameircacon']
+    db = server['sudamericano2017']
     
 #Aqui se define el bounding box con los limites geograficos donde recolectar los tweets
 #twitterStream.filter(locations=[31.214956,30.008375,31.301973,30.110602])
-twitterStream.filter(track=['sudamericano','futbool','football','soccer','Sub20'])
+twitterStream.filter(track=['sudamericano','sudamericano2017','sudamericanosub20','SudamericanoSub20'])
 #twitterStream.filter(track=['ecuador','cynthia viteri'])
